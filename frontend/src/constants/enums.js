@@ -1,1 +1,2 @@
 export const FEATURES={weekly_reading:'周阅读篇数',completion:'完读率',night_share:'夜读占比'};export const STATES=['queued','running','done','failed'];export const ROLES=['admin','analyst','viewer'];export const OUTREACH_STATES=['draft','approved'];
+export const EVENT_STATES={active:'有效',revoked:'已撤销'};export const SUMMARY_STATES={pending:'待计算',computed:'已计算',published:'已发布'};export const SOURCES={manual:'手动录入',events:'事件汇总'};
